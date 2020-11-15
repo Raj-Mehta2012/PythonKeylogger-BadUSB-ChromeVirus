@@ -1,3 +1,5 @@
+#coded by Raj Mehta & Vatsal Sharma 
+#dated 11 Nov 2020
 
 from pynput.keyboard import Key, Listener
 
@@ -10,11 +12,6 @@ def on_press(key):
     count+=1
     print(count)
 
-    if key == Key.backspace :
-	    keys.pop()
-    if key == Key.space:
-	    key = " "
-	    keys.append(key)
 
     print("{0} pressed".format(key))
 

