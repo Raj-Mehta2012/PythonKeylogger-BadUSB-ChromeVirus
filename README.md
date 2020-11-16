@@ -4,4 +4,4 @@ This project is to attain knowledge about keylogger programming and how one can 
 
 For video tutorial visit : https://youtu.be/KeUVIFHGUfg
 
-Created by Raj Mehta & Vatsal Sharma
+Created by Raj Mehta & Vatsal Sharma under supervision of Prof. Aaron Johns
